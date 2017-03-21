@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06584111E81114200E45FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06584101E81114200E45FDC /* AppDelegate.swift */; };
+		D06584131E81114200E45FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06584121E81114200E45FDC /* ViewController.swift */; };
+		D06584161E81114200E45FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06584141E81114200E45FDC /* Main.storyboard */; };
+		D06584181E81114200E45FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06584171E81114200E45FDC /* Assets.xcassets */; };
+		D065841B1E81114200E45FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06584191E81114200E45FDC /* LaunchScreen.storyboard */; };
+		D06584231E81124200E45FDC /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D06584221E81124200E45FDC /* moments.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D065840D1E81114200E45FDC /* SpotifyVedioBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyVedioBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06584101E81114200E45FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06584121E81114200E45FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06584151E81114200E45FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06584171E81114200E45FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D065841A1E81114200E45FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D065841C1E81114200E45FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06584221E81124200E45FDC /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D065840A1E81114200E45FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06584041E81114200E45FDC = {
+			isa = PBXGroup;
+			children = (
+				D065840F1E81114200E45FDC /* SpotifyVedioBackground */,
+				D065840E1E81114200E45FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D065840E1E81114200E45FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D065840D1E81114200E45FDC /* SpotifyVedioBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D065840F1E81114200E45FDC /* SpotifyVedioBackground */ = {
+			isa = PBXGroup;
+			children = (
+				D06584221E81124200E45FDC /* moments.mp4 */,
+				D06584101E81114200E45FDC /* AppDelegate.swift */,
+				D06584121E81114200E45FDC /* ViewController.swift */,
+				D06584141E81114200E45FDC /* Main.storyboard */,
+				D06584171E81114200E45FDC /* Assets.xcassets */,
+				D06584191E81114200E45FDC /* LaunchScreen.storyboard */,
+				D065841C1E81114200E45FDC /* Info.plist */,
+			);
+			path = SpotifyVedioBackground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D065840C1E81114200E45FDC /* SpotifyVedioBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D065841F1E81114200E45FDC /* Build configuration list for PBXNativeTarget "SpotifyVedioBackground" */;
+			buildPhases = (
+				D06584091E81114200E45FDC /* Sources */,
+				D065840A1E81114200E45FDC /* Frameworks */,
+				D065840B1E81114200E45FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyVedioBackground;
+			productName = SpotifyVedioBackground;
+			productReference = D065840D1E81114200E45FDC /* SpotifyVedioBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06584051E81114200E45FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Wolkamo;
+				TargetAttributes = {
+					D065840C1E81114200E45FDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V5BQXJ4624;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D06584081E81114200E45FDC /* Build configuration list for PBXProject "SpotifyVedioBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06584041E81114200E45FDC;
+			productRefGroup = D065840E1E81114200E45FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D065840C1E81114200E45FDC /* SpotifyVedioBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D065840B1E81114200E45FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D065841B1E81114200E45FDC /* LaunchScreen.storyboard in Resources */,
+				D06584231E81124200E45FDC /* moments.mp4 in Resources */,
+				D06584181E81114200E45FDC /* Assets.xcassets in Resources */,
+				D06584161E81114200E45FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06584091E81114200E45FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06584131E81114200E45FDC /* ViewController.swift in Sources */,
+				D06584111E81114200E45FDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D06584141E81114200E45FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06584151E81114200E45FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06584191E81114200E45FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D065841A1E81114200E45FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D065841D1E81114200E45FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D065841E1E81114200E45FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06584201E81114200E45FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5BQXJ4624;
+				INFOPLIST_FILE = SpotifyVedioBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolkamo.SpotifyVedioBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D06584211E81114200E45FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5BQXJ4624;
+				INFOPLIST_FILE = SpotifyVedioBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolkamo.SpotifyVedioBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06584081E81114200E45FDC /* Build configuration list for PBXProject "SpotifyVedioBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D065841D1E81114200E45FDC /* Debug */,
+				D065841E1E81114200E45FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D065841F1E81114200E45FDC /* Build configuration list for PBXNativeTarget "SpotifyVedioBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06584201E81114200E45FDC /* Debug */,
+				D06584211E81114200E45FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06584051E81114200E45FDC /* Project object */;
+}
