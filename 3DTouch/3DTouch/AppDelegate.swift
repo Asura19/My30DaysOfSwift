@@ -13,6 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
+    var isFirstLaunch: Bool = false
+    
     fileprivate enum AppShortcut: String {
      
         case NewProject
@@ -34,15 +36,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             launchedShortcutItem = shortcutItem as? UIApplicationShortcutItem
         }
         
+        isFirstLaunch = true
+        
+        if let shortcut = launchedShortcutItem {
+            _ = handleShortcutItem(shortcut)
+            launchedShortcutItem = nil
+        }
+        
         return true
     }
     
     func applicationDidBecomeActive(_ application: UIApplication) {
-        guard let shortcut = launchedShortcutItem else {
-            return
-        }
-        _ = handleShortcutItem(shortcut)
-        launchedShortcutItem = nil
+        
     }
     
     func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
@@ -51,6 +56,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func handleShortcutItem(_ shortcutItem: UIApplicationShortcutItem) -> Bool {
+        
+        if isFirstLaunch {
+            isFirstLaunch = false
+        }
         
         var isHandled = false
         
@@ -77,8 +86,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             isHandled = true
             break
         }
-        window?.rootViewController?.dismiss(animated: false, completion: nil)
+        if !isFirstLaunch {
+            window?.rootViewController?.dismiss(animated: false, completion: nil)
+        }
+        
         window?.rootViewController?.present(controller, animated: true, completion: nil)
+        
         return isHandled
     }
 
