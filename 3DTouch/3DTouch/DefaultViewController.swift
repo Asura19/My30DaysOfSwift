@@ -13,7 +13,13 @@ class DefaultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let item = UIApplicationShortcutItem(type: "two",
+                                             localizedTitle: "Phoenix",
+                                             localizedSubtitle: "Make a Call",
+                                             icon: UIApplicationShortcutIcon(type: .cloud),
+                                             userInfo: nil)
+        
+        UIApplication.shared.shortcutItems = [item]
     }
 
     override func didReceiveMemoryWarning() {
